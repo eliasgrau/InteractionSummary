@@ -1,0 +1,79 @@
+
+body {
+background-color: pink;
+margin:0;
+}
+
+
+@keyframes milk_scan {
+0% { top: 150px;
+	left: 800px; }
+
+29% {top: 150px;
+	left: 800px;}
+
+60% {top: 150px;
+	left: 800px;}
+
+80% {top: 150px;
+	left: 800px;}
+
+100% {top: 150px;
+	left: 800px;}
+
+}
+
+
+
+
+.scanner {
+
+position: fixed;
+top: 5rem;
+z-index: -1;
+width: 100%
+
+
+}
+
+.milk {
+max-width: 15%;
+position: absolute;
+width:;
+height: ;
+top: 220px;
+left: 1050px;
+}
+
+.milk:hover {
+
+position: absolute;
+animation-name: milk_scan;
+transition: all 1s ease-in-out;
+animation-duration: 3s;
+animation-iteration-count: 1;
+
+
+}
+
+
+.orange_juice {
+position: absolute;
+width:15%;
+height: ;
+top: 450px;
+left: 1050px;
+}
+
+
+.beer {
+
+position: absolute;
+width:15%;
+height: ;
+top: 370px;
+left: 1225px;
+
+}
+
+}
