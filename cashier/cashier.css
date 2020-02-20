@@ -3,9 +3,14 @@
 
 body {
 		margin: 0;
-		background-color: #D8D8D8;
+		background-color: white;
+
+
 
 }
+
+
+
 
 .container {
 		position: fixed;
@@ -15,22 +20,17 @@ body {
 		justify-content: center;
 		align-items: center;
 		cursor: url('img/red_light.png'), pointer;
+
+
 }
 
  .barcode img {
-		width: 170px;
+		width: 280px;
 
 	
 }
 
 
-
-.barcode img:hover {
-		width: 170px;
-
-
-	
-}
 
 
 
@@ -49,6 +49,7 @@ body {
 		width: 170px;
 		height: 50px;
 		z-index: 1;
+		cursor: url('img/red_light.png'), pointer;
 	
 }
 
@@ -57,8 +58,22 @@ background-color: red;
 filter: blur(60px);
 
 
+
 }
 	
+
+
+ .Bg_barcode:active {
+background-color: red;
+filter: blur(60px);
+width: 4000px;
+height: 3000px;
+
+
+
+}
+	
+
 
 
 .footer { position: fixed;
@@ -66,12 +81,23 @@ filter: blur(60px);
 		 display: flex;
 		 justify-content: center;
 		 align-items: center;
-		 text-align: center;
-		 font-family: helvetica-light;
-		 font-size: 11px;
-		 opacity: 50%;
+		 opacity: 50;
+		cursor: url('img/red_light.png'), pointer;
 
  }
+
+
+
+
+footer { 
+		 text-align: center;
+/*		 font-family: helvetica-light;
+*/		 font-size: 0.1rem;
+
+
+ }
+
+
 
 .audio img {
 	height: 22px;
