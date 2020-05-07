@@ -3,94 +3,104 @@
 
 body { 
 			width: 100%;
-			height: 100%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			align-content: space-around;
-			flex-wrap: wrap;
 			cursor: url('blackmouse2.png'), pointer;
-			background-color: white;
+			background-color: pink;
 }
 
 
-.header {	background-color: white; 
-			width: 600px;
-			height: 20px;
+
+a 		{ 		
+	font-family: arial; 
+	text-decoration: none; 
+	cursor: url('blackmouse2.png' ) , auto;
+
+}
+
+
+a:hover { 	
+	font-style: oblique;
+
+}
+
+
+.header {	
+			width: 80%;
+			height: 40px;
 			font-family: helvetica;
-			margin: 20px;
+			margin: 90pt;
 			transform: rotate(7deg);
-			position: relative;top: 60px;
 			background-color: yellow;	
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			background-color: rose;
-			color: white !important;
+			color: pink;
 			font-size: 16px;
 			cursor: url('blackmouse2.png' ) , auto;
 }
-	
-.title 	{ 	font-family: arial;
-			cursor: url('blackmouse2.png' ) , auto;
-}
 
-p 		{ 		
-			font-family: arial; color: #00000;
-			cursor: url('blackmouse2.png' ) , auto;
-			font-size: 10px;
-}
-
-.interaction_class {
-			margin: 11px;
-
+.header:hover {
+	background-color: red;
+	color: yellow;
 }
 
 
-a 		{ 		
-			font-family: arial; 
-			text-decoration: none; 
-			color: black;
-			cursor: url('blackmouse2.png' ) , auto;
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+.projects{
+	text-align: right;
+	line-height: 30px;
+	width: 200px;
+	height: 200px;
+}
+
+.projects a{
+	color:yellow;
+}
+
+.projects a:hover{
+	color:red;
+}
+
+
+.image {
+	margin: 20pt;
+	width: 200px;
+	height: 200px;
 
 }
 
 
-a:hover { 	font-style: oblique;
-			cursor: url('blackmouse2.png' ) , auto;
-
-}
-
-.contact { 	width: 300px;
-			cursor: url('blackmouse2.png' ) , auto;
-
-}
-
-
-.window_gif {
-			margin: 30px;
-			transform: rotate(-7deg);
-			cursor: url('blackmouse2.png' ) , auto;
-
+.image img{
+	width: 200px;
+	height: 200px;
 }
 
 
 .footer {
-			margin: 50px;
-			position: static;
+			margin-top: 50px;
 			top: 0px;
-			height: 300%;
-			cursor: url('blackmouse2.png' ) , auto;
-
+			font-size: 15px;
+			text-align: center;
+			line-height: 20px;
 }
 
-footer {
-
-			font-size: .3rem;
-			text-align: right;
-			cursor: url('blackmouse2.png' ) , auto;
-
+.footer a {
+	color: white
 }
+
+
+.footer a:hover {
+	color: black
+}
+
+
 
 
 
